@@ -27,7 +27,7 @@ Optional add output path with -o/--output:
 ```sh
 python main.py data/example_video.avi data/example_config.json -o results/output.json
 ```
-If classifier is added, activate "pre-classification" with -c/--classify:
+If classifier is added (in label_tool/classifier.py), activate "pre-classification" with -c/--classify:
 ```sh
 python main.py data/example_video.avi data/example_config.json --classify
 ```
@@ -46,11 +46,9 @@ python main.py data/example_video.avi data/example_config.json --classify
 5. Create a new Pull Request
 
 ## Open Tasks:
-- tracker
-- add basic classifier
-- rewrite help
-- linting
-- other color for tracked rois
+- fix tracker bug
+- add example classifier
+- different colors for different types of rois
 
 ## Meta
 
